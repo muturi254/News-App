@@ -9,7 +9,6 @@ manager = Manager(app)
 
 # add reference 
 manager.add_command('server', Server)
-manager.add_command('server', Server)
 
 
 if __name__ == '__main__':
